@@ -1,4 +1,9 @@
-#employees ul{
+body{
+    position:flex;
+    background-color: rgb(18, 9, 9);
+}
+
+.employees ul{
     list-style-type: none;
 }
 /* Project list item, child of an a link to deployed project. */
@@ -8,6 +13,9 @@
     align-items: center;
     color: white;
     margin: 50px;
+}
+.employees h1{
+    color: white;
 }
 .employee:hover{
     background-color: slategray;
