@@ -1,0 +1,27 @@
+#employees ul{
+    list-style-type: none;
+}
+/* Project list item, child of an a link to deployed project. */
+.employee{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    margin: 50px;
+}
+.employee:hover{
+    background-color: slategray;
+    transform: scale(1.1);
+}
+.description{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.employee a{
+    color: white;
+}
+.employee a:visited{
+    color: white;
+}
+
